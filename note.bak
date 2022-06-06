@@ -1,0 +1,66 @@
+What is ML?
+- machine: computers perform task: - learning by programming
+machine to be like human, to decide 
+
+AI includes ML includes Deep learning (type of algo ML)
+Data science: analyzing data 
+
+How ML works
+- provide data (Inputs)
+- create modele
+
+why modele not have good accurate?
+- tsy ampy ny data Inputs
+
+
+NoSQL unstructured database: mongoDB 
+
+ampiasana ny ML
+business decisions 
+
+Framework
+1- collect data
+2- data modeling
+-> pb identification -> data -> evaluation -> features -> modeling -> experimentation
+3- deploiment 
+
+ML category: supervised - unsupervised - reinforcment
+
+step1 pb identification: supervised or unsupervised or classification or regression ..
+    supervised: 
+    => classification ( binary , multiple ), predict class
+    => regression, predict number
+    unsupervised: data no labels 
+    => clustering ( you provide the labels for the similar data)
+    transfer learning:
+    reiforcment learning:
+step2 data: structured data rows column, unstructured data like images voices ...
+step3 evaluation: what success waitted ?
+    use metrics: 
+    => classification: Accuracy , Precision,
+    => regression: MAE, MSE, RMSE
+step4 features: what we know about data?
+step5 modeling: what modele should use? 
+    choosing model : train 
+        => structured data: catboost & XGBoost
+        => unstructured: deep learning
+    tuning model    : validation data
+        => Adjust and modif hyperparameters of models
+    model comparison : test data
+        => underfitting: perf trainning >> perf test
+        => overfitting: perf trainning << perf test
+        solve under or over fitting: 
+            => increase hyperparameters, try more advanced model, reduce amount of features..
+step6 experimentation: how could improve result?
+
+
+Data collection: ccxt 
+Data preparation: pandas ta
+- sma14
+- ema14
+- rsi 
+- %daily ( output) => price prediction 
+model => time series => regression
+
+
+
